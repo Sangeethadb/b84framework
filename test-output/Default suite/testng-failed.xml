@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="scrpit.DemoTest2">
+      <class name="scrpit.ValidLogin">
         <methods>
           <include name="postCondition"/>
-          <include name="testB"/>
+          <include name="testValidLogin"/>
           <include name="preCondition"/>
         </methods>
-      </class> <!-- scrpit.DemoTest2 -->
+      </class> <!-- scrpit.ValidLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
